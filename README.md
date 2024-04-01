@@ -62,5 +62,13 @@ The Gantt chart captures the SPNRR algorithm's scheduling process over time. Eac
 ### How SPNRR Works
 The SPNRR algorithm combines the preemptive nature of RR with the efficiency of SPN. It assigns a dynamic time quantum based on the processes' burst times to minimize waiting time and prevent indefinite postponement of execution. This hybrid approach allows the algorithm to adaptively switch between behaviors akin to SPN or RR depending on the system load and process requirements. It ensures a responsive system while managing overhead and maintaining efficiency.
 
+## Team Contributions
+Our team has worked collaboratively to bring this project to fruition. Here's how the responsibilities were distributed:
+
+- [**Jae-kyung Lim**](https://github.com/ijkgit): Implemented the FCFS logic, SPN logic, SPNRR logic, and the GUI.
+- [**Seung-don Yeom**](https://github.com/tmdehs77): Developed the HRRN logic, contributed to the SPNRR logic, and helped with the GUI implementation.
+- [**Seung-byeok Moon**](https://github.com/Vrickk): Responsible for the SRTN logic, contributed to the SPNRR logic, implemented the Gantt chart, and developed the logic for P-cores and E-cores.
+- [**Joo-won Cha**](https://github.com/joowon7172): Took charge of the RR logic, contributed to the SPNRR logic, and also worked on the implementation of P-cores and E-cores.
+  
 ## Custom Development
 The entirety of this project, including the logic for scheduling, core management, and performance metrics, has been developed from scratch, with no reliance on external libraries. This ensures a deep and comprehensive understanding of the scheduling concepts and their application in modern computing environments.
